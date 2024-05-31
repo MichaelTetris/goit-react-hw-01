@@ -12,7 +12,7 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
-    'react/ptop-types':0,
+    'react/ptop-types': off,
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
       'warn',
