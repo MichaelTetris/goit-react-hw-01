@@ -1,7 +1,9 @@
 /* import React from 'react'; */
-/* import Profile  from './Profile/Profile'; */
+
+import FriendList from './FriendList/FriendList';
 import Profile from './Profile/Profile';
 import profileData from './Profile/profileData.json';
+import friend from './FriendList/friends.json';
 
 
 
@@ -15,6 +17,7 @@ const App = () => {
         avatar={profileData.avatar}
         stats={profileData.stats}
       />
+      <FriendList friends={friend} />
     </>
   );
 };
